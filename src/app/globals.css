@@ -19,3 +19,12 @@ body {
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+
+.navbar {
+  @apply w-full relative z-10 flex justify-center items-center flex-col mx-auto sm:px-16 px-6; 
+}
+
+.hero {
+  @apply relative z-10 flex justify-start items-center w-full h-screen flex-col max-w-7xl mx-auto sm:px-16 px-6 top-24;
+}
